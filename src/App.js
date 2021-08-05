@@ -1,5 +1,6 @@
 import './App.css';
-import Сalculator from './components/Сalculator/Сalculator'
+import Сalculator from './components/Сalculator/Сalculator';
+import Result from './components/Result/Result';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           Счётчик калорий
         </h1>
         <Сalculator />
+        <Result />
       </article>
     </div>
   );
