@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/calorie-counter-react/static/css/main.53e8e61c.chunk.css",
+    "main.js": "/calorie-counter-react/static/js/main.9cbe6a4d.chunk.js",
+    "main.js.map": "/calorie-counter-react/static/js/main.9cbe6a4d.chunk.js.map",
+    "runtime-main.js": "/calorie-counter-react/static/js/runtime-main.034410f5.js",
+    "runtime-main.js.map": "/calorie-counter-react/static/js/runtime-main.034410f5.js.map",
+    "static/js/2.f0e06828.chunk.js": "/calorie-counter-react/static/js/2.f0e06828.chunk.js",
+    "static/js/2.f0e06828.chunk.js.map": "/calorie-counter-react/static/js/2.f0e06828.chunk.js.map",
+    "static/js/3.4e567943.chunk.js": "/calorie-counter-react/static/js/3.4e567943.chunk.js",
+    "static/js/3.4e567943.chunk.js.map": "/calorie-counter-react/static/js/3.4e567943.chunk.js.map",
+    "index.html": "/calorie-counter-react/index.html",
+    "static/css/main.53e8e61c.chunk.css.map": "/calorie-counter-react/static/css/main.53e8e61c.chunk.css.map",
+    "static/js/2.f0e06828.chunk.js.LICENSE.txt": "/calorie-counter-react/static/js/2.f0e06828.chunk.js.LICENSE.txt",
+    "static/media/Сalculator.css": "/calorie-counter-react/static/media/icon-radio-empty.34e5e560.svg",
+    "static/media/index.css": "/calorie-counter-react/static/media/pt-sans-caption-regular.50b8853f.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.034410f5.js",
+    "static/js/2.f0e06828.chunk.js",
+    "static/css/main.53e8e61c.chunk.css",
+    "static/js/main.9cbe6a4d.chunk.js"
+  ]
+}
