@@ -3,7 +3,7 @@ import { GlobalContext } from '../../context/GlobalContext';
 import './Сalculator.css';
 
 const Сalculator = () => {
-  const {calculationOfCalories} = useContext(GlobalContext);
+  const {calculationOfCalories, resetCalculation} = useContext(GlobalContext);
   
   const initialСalculatorStore = {
     gender: "male",
@@ -11,18 +11,20 @@ const Сalculator = () => {
     height: null,
     weight: null,
     activity: "min"
-  }
+  };
 
   const [calculatorStore, setСalculatorStore] = useState(initialСalculatorStore);
 
   const changeHandler = (event) => {
     setСalculatorStore({...calculatorStore, [event.target.name]: event.target.value});
-  }
+  };
 
   const resetButton = (event) => {
     event.preventDefault();
+    resetCalculation();
+    
     setСalculatorStore(initialСalculatorStore);
-  }
+  };
 
   const disabledSubmit = calculatorStore.age && calculatorStore.height && calculatorStore.weight;
   const disabledReset = calculatorStore.age || calculatorStore.height || calculatorStore.weight;

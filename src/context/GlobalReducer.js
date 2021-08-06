@@ -6,6 +6,10 @@ const GlobalReducer = (state, action) => {
         result: action.payload,
         isResult: true
       }
+    case 'RESET_CALCULATION': 
+      return {
+        ...action.payload
+      }
     default:
       return state;
   }

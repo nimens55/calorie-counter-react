@@ -15,11 +15,11 @@ const Result = () => {
           <p>поддержание веса</p>
         </li>
         <li className="counter__result-item">
-          <h3><span id="calories-minimal">{globalState.result.increase}</span> ккал</h3>
+          <h3><span id="calories-minimal">{globalState.result.decrease}</span> ккал</h3>
           <p>снижение веса</p>
         </li>
         <li className="counter__result-item">
-          <h3><span id="calories-maximal">{globalState.result.decrease}</span> ккал</h3>
+          <h3><span id="calories-maximal">{globalState.result.increase}</span> ккал</h3>
           <p>набор веса</p>
         </li>
       </ul>
