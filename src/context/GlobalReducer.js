@@ -3,7 +3,8 @@ const GlobalReducer = (state, action) => {
     case 'SPEND_CALCULATION': 
       return {
         ...state,
-        result: action.payload
+        result: action.payload,
+        isResult: true
       }
     default:
       return state;

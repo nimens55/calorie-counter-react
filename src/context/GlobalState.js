@@ -5,6 +5,7 @@ import GlobalReducer from './GlobalReducer';
 const GlobalState = ({children}) => {
   const initialGlobalStore = {
     result: {},
+    isResult: false,
     physicalActivity: {
       min: 1.2,
       low: 1.375,
@@ -37,7 +38,7 @@ const GlobalState = ({children}) => {
       payload: result
     })
   }
-  console.log(globalState)
+
   return (
     <GlobalContext.Provider value={{globalState, calculationOfCalories}}>
       {children}
